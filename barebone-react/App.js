@@ -6,6 +6,7 @@ const parent = React.createElement(
     React.createElement('h2', { id: 'heading2' }, 'Nested Heading 2')
   ])
 );
+// create elements without JSX ^
 
 const heading = React.createElement(
   'h1',
