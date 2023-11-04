@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 const parent = React.createElement(
   'div',
   { id: 'parent' },
@@ -7,7 +10,6 @@ const parent = React.createElement(
   ])
 );
 // create elements without JSX ^
-
 const heading = React.createElement(
   'h1',
   { id: 'heading' },
